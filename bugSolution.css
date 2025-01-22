@@ -1,0 +1,11 @@
+The solution is simple: ensure you add spaces around the operators in your `calc()` expression.  For instance:
+
+```css
+/* Incorrect */
+width: calc(100%-10px);
+
+/* Correct */
+width: calc(100% - 10px);
+height: calc(50vh + 20px);
+```
+By adding spaces around the `-` and `+` operators, the `calc()` function correctly evaluates the expression.
